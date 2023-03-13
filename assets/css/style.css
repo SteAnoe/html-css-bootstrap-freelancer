@@ -1,0 +1,87 @@
+header{
+    background-color: #2c3e50 !important;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+#profile{
+    background-color: #1abc9c;
+}
+
+.bar{
+    height: 5px;
+    width: 70px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.fa-star{
+    font-size: 1.5em;
+}
+
+#profile-img{
+    height: 400px;
+    margin: auto;
+}
+
+img{
+    border-radius: 5px;
+    display: block;
+}
+
+#container-img{
+    gap: 1em;
+}
+
+#about{
+    background-color: #1abc9c;
+}
+
+.container-70{
+    width: 70%;
+    margin: auto;
+}
+
+.message{
+    height: 100px;
+}
+
+.btn-green{
+    background-color: #1abc9c;
+    color: white;
+}
+
+#contatti{
+    background-color: #3a546d;
+}
+
+.circle{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#link{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+#copyright{
+    background-color: #2c3e50;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .col-md-6{
+        width: calc(100%/2 - 1em);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .col-lg-4{
+        width: calc(100%/3 - 1em);
+    }
+}

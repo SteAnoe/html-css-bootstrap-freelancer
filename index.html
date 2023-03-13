@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-css-bootstrap-freelancer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg container">
+            <div id="nav" class="container-fluid">
+                <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="container text-center pb-1">
+                <img id="profile-img" src="./assets/img/avatar.svg" alt="">
+                <h1 class="text-light mt-1">START BOOTSTRAP</h1>
+                <div class="d-flex align-items-center mt-3">
+                    <div class="bar me-1 bg-light"></div>
+                    <i class="fa-solid fa-star text-light"></i>
+                    <div class="bar ms-1 bg-light"></div>
+                </div>
+                <p class="text-light mt-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container text-center pt-5 pb-5">
+                <h2 class="mt-2">PORTFOLIO</h2>
+                <div class="d-flex align-items-center mt-3">
+                    <div class="bar me-1 bg-black"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="bar ms-1 bg-black"></div>
+                </div>
+                <div id="container-img" class="d-flex justify-content-between flex-wrap mt-5">
+                    <img class="img-fluid col-12 col-md-6 col-lg-4" src="./assets/img/cabin.png" alt="">
+                    <img class="img-fluid col-12 col-md-6 col-lg-4" src="./assets/img/cake.png" alt="">
+                    <img class="img-fluid col-12 col-md-6 col-lg-4" src="./assets/img/circus.png" alt="">
+                    <img class="img-fluid col-12 col-md-6 col-lg-4" src="./assets/img/game.png" alt="">
+                    <img class="img-fluid col-12 col-md-6 col-lg-4" src="./assets/img/safe.png" alt="">
+                    <img class="img-fluid col-12 col-md-6 col-lg-4" src="./assets/img/submarine.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container-70 pt-5 pb-5">
+                <h2 class="text-light text-center">ABOUT</h2>
+                <div class="d-flex align-items-center mt-3">
+                    <div class="bar me-1 bg-light"></div>
+                    <i class="fa-solid fa-star text-light"></i>
+                    <div class="bar ms-1 bg-light"></div>
+                </div>
+                <div class="d-flex justify-content-between flex-wrap">
+                    <p class="text-light mt-5 col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dolorem aperiam ut praesentium optio sequi quas accusamus cumque. Sit commodi qui dolorum voluptatibus, architecto est? Quia officia ut molestiae eos.</p>
+                    <p class="text-light mt-5 col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corrupti molestias dolorem nobis hic voluptates velit quia, nulla ratione, itaque magni incidunt nemo! Laudantium quisquam repellendus deserunt ipsam tenetur harum.</p>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download me-1"></i>Download</button>
+                </div>
+            </div>  
+        </section>
+        <section id="contact">
+            <div class="container-70 pt-5 pb-5">
+                <h2 class="text-center">CONTACT ME</h2>
+                <div class="d-flex align-items-center mt-3">
+                    <div class="bar me-1 bg-light bg-black"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="bar ms-1 bg-light bg-black"></div>
+                </div>
+                <form class="mt-5">
+                    <div class="mb-3">
+                        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+                    </div>
+                    <div class="mb-3">
+                        <input type="message" class="form-control message" id="exampleInputPassword1" placeholder="Message">
+                    </div>
+                    <button type="submit" class="btn btn-green">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contatti">
+            <div class="container d-flex justify-content-between flex-wrap text-center pt-5 pb-5">
+                <div class="col-12 col-md-4 text-light mt-5">
+                    <h5>LOCATION</h5>
+                    <p>2215 John Daniel Drive Clark, <br> MO 54243</p>
+                </div>
+                <div class="col-12 col-md-4 text-light mt-5">
+                    <h5>AROUND THE WEB</h5>
+                    <div>
+                        <i class="fa-brands fa-facebook-f circle"></i>
+                        <i class="fa-brands fa-google-plus-g circle"></i>
+                        <i class="fa-brands fa-twitter circle"></i>
+                        <i class="fa-brands fa-linkedin-in circle"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-light mt-5">
+                    <h5>ABOUT FREELANCER</h5>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <a id="link" href="#">Start Bootstrap</a>.</p>
+                </div> 
+            </div>
+            
+        </section>
+        <section id="copyright">
+            <div class="container text-center text-light pt-5 pb-5">
+                Copyright @ Your Website 2019
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
